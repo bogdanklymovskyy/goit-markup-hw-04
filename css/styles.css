@@ -336,6 +336,7 @@ text-decoration: none;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 
 .s1 {
@@ -419,14 +420,14 @@ align-items: center;
 }
 
 header {
-    width: 1200px;
+    max-width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
     padding: 24px 0;
 }
 
-.li1 {
+.li1:not(.notli1) {
 margin-left: 50px;
 }
 
@@ -510,7 +511,7 @@ color: #212121;
 
 
 .width {
-    width: 1200px;
+    max-width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -550,7 +551,7 @@ footer {
     padding-bottom: 20px;
 }
 
-.marg:not(.section02) {
+.marg:not(.section02,.sec1) {
     margin: 0;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -676,5 +677,85 @@ border-radius: 4px;
 
 .icon-client {
     fill: var(--social-icon);
+}
+
+.footer .title {
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-text);
+}
+
+.footer-social {
+    padding-top: 12px;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social .item{
+    width: 44px;
+    height: 44px;
+
+}
+
+.footer-social .item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.sl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sl .icon{
+    fill: var(--footer-text)
+}
+
+.footer-social .sl:focus, 
+.footer-social .sl:hover{
+    background-color: var(--accent);
+}
+
+
+footer {
+    display: flex
+}
+
+.footer .title {
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-text);
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-text);
+}
+
+.sec1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
