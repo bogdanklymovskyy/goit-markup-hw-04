@@ -133,6 +133,7 @@ color: #2196F3;
     color: #FFFFFF;
     
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 696px;
 }
 
 .but {
@@ -381,7 +382,7 @@ line-height: 1.714;
 letter-spacing: 0.03em;
 
 color: #757575;
-padding-left: 30px;
+
 padding-top: 10px;
 }
 
@@ -455,7 +456,7 @@ margin-left: 50px;
 }
 
 .h3title {
-    padding-left: 30px;
+
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -769,3 +770,10 @@ border-radius: 0px 0px 4px 4px;
 margin-right: 30px;
 }
 
+.class1 {
+    justify-content: center;
+}
+
+.lipunkt {
+    padding-right: 30px;
+}
