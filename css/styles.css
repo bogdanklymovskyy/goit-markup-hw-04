@@ -271,6 +271,10 @@ footer {
     
     color: #212121;
     margin-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .but1ul {
@@ -598,7 +602,6 @@ footer {
 .section02 {
     margin: 0;
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 
@@ -867,4 +870,26 @@ footer {
 
 .footer-social {
     margin-left: 70px;
+}
+
+.sectionteam {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.p6 {
+    margin-top: 20px;
+}
+
+.a1 {
+    margin-top: 9px;
+}
+
+.sectionportfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.borderheader {
+    border-bottom: 1px solid #ECECEC;;
 }
