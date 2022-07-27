@@ -94,6 +94,17 @@ letter-spacing: 0.02em;
 color: #2196F3;
 }
 
+.header:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;  
+}
+
 .mail {
     font-family: 'Roboto';
     font-style: normal;
@@ -115,6 +126,17 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #2196F3;
+}
+
+.mail:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
 }
 
 .tel {
@@ -140,6 +162,17 @@ color: #2196F3;
     color: #2196F3;
 }
 
+.tel:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+}
+
 .mail:hover {
     font-family: 'Roboto';
     font-style: normal;
@@ -152,6 +185,17 @@ color: #2196F3;
     
 }
 
+.mail:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;  
+}
+
 .tel:hover {
     font-family: 'Roboto';
     font-style: normal;
@@ -162,6 +206,17 @@ color: #2196F3;
     
     color: #2196F3;
     
+}
+
+.tel:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
 }
 
 .eff {
@@ -257,19 +312,26 @@ h3:not(.isk) {
 
 
 
-h2 {
+h2:not(.title) {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.167;
 text-align: center;
-letter-spacing: 0.03em;
 
-color: #212121;
 
 }
 
+.title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+letter-spacing: 0.03em;
+color: #212121;  
+}
 
 
 
@@ -297,6 +359,7 @@ footer {
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
+    border: 0;
 }
 
 .but1ul {
@@ -320,7 +383,7 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
-
+border: 0;
 }
 
 .but1:focus {
@@ -340,7 +403,7 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
-
+border: 0;
 }
 
 ul {
@@ -412,6 +475,17 @@ text-decoration: none;
 }
 
 .li2:hover {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+}
+
+.li2:focus {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -611,6 +685,14 @@ width: 370px;
     width: 370px;
 }
 
+.ulpoli:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    height: 404px;
+    width: 370px; 
+}
+
 
 .notlipo {
     border: 1px solid #EEEEEE;
@@ -619,6 +701,13 @@ width: 370px;
 }
 
 .notlipo:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    border: 1px solid #EEEEEE;
+    height: 404px;
+    width: 370px;
+}
+
+.notlipo:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     border: 1px solid #EEEEEE;
     height: 404px;
@@ -802,7 +891,7 @@ border-radius: 4px;
 
 .footer .title {
     margin-bottom: 20px;
-    font-size: inherit;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -857,7 +946,7 @@ footer {
 
 .footer .title {
     margin-bottom: 20px;
-    font-size: inherit;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -867,12 +956,13 @@ footer {
 
 .title {
     margin-bottom: 20px;
-    font-size: inherit;
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footer-text);
+    font-size: 14px;
 }
 
 .sec1 {
